@@ -403,7 +403,7 @@ int main(){
         if (cin.fail()) {
             cin.clear();  // Clear error flags
             cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Clear input buffer
-            cout << "Invalid input. Please enter a number: ";
+            cout << "Incorrect input. Please enter a number: ";
             continue;
 
         }
@@ -480,7 +480,7 @@ int main(){
         if (cin.fail()) {
             cin.clear();  // Clear error flags
             cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Clear input buffer
-            cout << "\nInvalid input. Please enter a number\n";
+            cout << "\nIncorrect input. Please enter a number\n";
             continue;
         }
 
@@ -493,7 +493,7 @@ int main(){
                 if (cin.fail()) {
                     cin.clear();  // Clear error flags
                     cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Clear input buffer
-                    cout << "\nInvalid input. Please enter a number\n";
+                    cout << "\nIncorrect input. Please enter a number\n";
                     continue;
                 }
 
@@ -529,7 +529,7 @@ int main(){
                 if (cin.fail()) {
                     cin.clear();  // Clear error flags
                     cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Clear input buffer
-                    cout << "\nInvalid input. Please enter a number\n";
+                    cout << "\nIncorrect input. Please enter a number\n";
                     continue;
                 }
 
@@ -572,7 +572,7 @@ int main(){
                 if (cin.fail()) {
                     cin.clear();  // Clear error flags
                     cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Clear input buffer
-                    cout << "\nInvalid input. Please enter a number\n";
+                    cout << "\nIncorrect input. Please enter a number\n";
                     continue;
                 }
 
@@ -622,7 +622,7 @@ int main(){
             }
 
             default:
-                cout << "Invalid option. Please try again!" << endl;
+                cout << "Incorrect choice. Please try again!" << endl;
 
                 break;
         }
