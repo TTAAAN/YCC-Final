@@ -486,6 +486,7 @@ int main(){
 
         cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Clear input buffer
 
+        clearScreen();
         switch (choice) {
             case 1: { // Food
                 FoodMenu();
